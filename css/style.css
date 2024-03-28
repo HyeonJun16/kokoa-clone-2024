@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+@import url(reset.css);
+@import url(variable.css);
+/* component */
+@import url(component/status-bar.css);
+@import url(component/nav-bar.css);
+@import url(component/screen-header.css);
+@import url(component/user-component.css);
+@import url(component/badge.css);
+@import url(component/point.css);
+@import url(component/icon-row.css);
+@import url(component/screen);
+@import url(component/alt-screen-header.css);
+@import url(component/no-mobile.css);
+@import url(component/no-landscape.css);
+/* screens */
+@import url(screens/login.css);
+@import url(screens/friends.css);
+@import url(screens/find.css);
+@import url(screens/more.css);
+@import url(screens/settings.css);
+@import url(screens/chat.css);
+body {
+    color: #2F363E;
+    font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+    padding: 0px var(--horizontal-space)
+}
